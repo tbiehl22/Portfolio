@@ -1,13 +1,14 @@
 #content {
     min-height: 100vh;
     margin: 0 auto -88px;
-    background-image: url("images/leather_1.png");
+    background-image: url("images/background.jpg");
+    width: 100%;
   }
 
 .page-title {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
-    color: #4aaaa5;
+    color: white;
     border-bottom: 3px solid #dddddd;
     font-size: 2em;
     padding-bottom: 40px;
@@ -16,8 +17,8 @@
 
 .header-section {
     width: 100%;
-    background-color: white;
-    border-bottom: 4px solid #cccccc;
+    background-color: black;
+    border-bottom: 4px solid white;
     font-family: 'Georgia', Times, Times New Roman, serif;
     margin-bottom: 40px;
 }
@@ -25,18 +26,18 @@
 #myName {
     height: 77px;
     line-height: 77px;
-    background-color: #4aaaa5;
+    margin-left: -240px;
     text-align: center;
     font-size: 34px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-family: cursive, sans-serif;
     font-weight: bold;
-    color: #ffffff;
+    color: white;
 }
 
 nav {
     height: 76px;
     float: right;
-    background-color: white;
+    margin-left: 220px;
 }
 
 .navButton {
@@ -46,7 +47,7 @@ nav {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
     text-align: center;
-    color: #ffffff;
+    color: white;
 }
 
 #bodyContent {
@@ -55,7 +56,7 @@ nav {
 }
 
 #mainContent {
-    background-color: #ffffff;
+    
     width: 165%;
     padding: 40px 30px 40px 30px;
     height: 750px;
@@ -64,13 +65,13 @@ nav {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 1.1em;
     line-height: 2em;
-    color: #777777;
+    color: white;
 }
 
 #profilePic {
     width: 170px;
     float: left;
-    margin: 0px 20px 10px 0px;
+    border-radius: 50%;
 }
 
 .projects {
@@ -130,10 +131,10 @@ input {
 }
 
 footer {
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
+    background-color: black;
+    border-top: 8px solid white;
     line-height: 40px;
-    color: #cccccc;
+    color: white;
     text-align: center;
     position: sticky;
     right: 0;bottom:0;left:0;
