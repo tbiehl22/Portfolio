@@ -22,7 +22,7 @@
 
 #myName {
     height: 77px;
-    line-height: 77px;
+    line-height: 75px;
     margin-left: -190px;
     text-align: center;
     font-size: 50px;
@@ -38,7 +38,6 @@ nav {
 }
 
 .navButton {
-    
     height: 100%;
     line-height: 80px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
@@ -53,34 +52,42 @@ nav {
 }
 
 #mainContent {
-    width: 180%;
+    width: 170%;
     height: 750px;
     margin-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1em;
     line-height: 2em;
     color: rgb(82, 80, 80);
-    
 }
 
 #profilePic {
-    width: 170px;
-    float: left;
+    width: 190px;
     border-radius: 50%;
+    float: left;
+    padding-right: 10px;
 }
 
-.projects {
+.homeworkAssignment {
     position: relative;
     margin-bottom: 40px;
+    
     cursor: pointer;
     width: 274px;
     margin: 20px 0 25px;
     overflow: auto;
+   
+    
 }
 
-.projects img {
-    width: 35%;
-    border: 0 none;
+
+
+
+
+.project {
+    float: left;
+    position: relative;
+    width: 30%;
 }
 
 .label {
@@ -131,7 +138,7 @@ footer {
     line-height: 40px;
     color: white;
     text-align: center;
-    position: fixed;
+    position: relative;
     right: 0;bottom:0;left:0;
     height: 50px;
     
