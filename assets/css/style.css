@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:wght@700&display=swap');
+
+
+* {
+    color: white;
+}
+
+html, body {
+    background: rgb(134, 126, 126);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, black, black);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, rgb(48, 47, 47), rgb(49, 49, 49));
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+}
+
+h1 {
+    font-family: "Patua One", sans-serif;
+    color: white;
+}
+
+.navbar-dark .navbar-brand {
+    font-size: 4em;
+    font-family: Alegreya SC;
+    color: white;
+    
+}
+
+.navbar-nav {
+    font-size: 20px;
+    border-right: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.aboutLink,
+.portfolioLink {
+    border-right: 1px solid white;
+}
+
+.container {
+    margin-top: 45px;
+    margin-bottom: 65px;
+}
+
+.nameBar {
+    border-bottom: 1px solid white;
+}
+
+.work,
+.contact,
+.about {
+    color:white;
+}
+
+img {
+    width: 600px;
+    height: 150px;
+}
+
+.square_image {
+    width: 250px;
+    height: 240px;
+    border-radius: 50%;
+    border: 2px solid white
+}
+
+.paragraph {
+    font-size: 1.2em;
+    margin-top: 10px;
+    line-height: 1.6em;
+}
+
+.container-grid {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.contact-form {
+    width: 80%;
+}
+
+.port-cards {
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+}
+
+.card-header {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #000066;
+}
+
+i.fab,
+i.fas,
+a {
+    color: black;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.wrapper > h1 {
+    padding: 20px;
+    margin: 40px;
+    font-size: 2.5rem;
+}
+
+.wrapper > p {
+    font-size: 1.5rem;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 2vh;
+    margin-right: 2vh;
+}
+
+
+.share > button {
+    background-color: black;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;
+    margin: 5px;
+    width: 130px;
+}
+
+.share > button > a {
+    color: #fff;
+}
+
+i.fa-envelope:before {
+    color: #fff;
+}
+
+i.fa-linkedin:before {
+    color: white;
+}
+
+i.fa-github:before {
+    color: white;
+}
