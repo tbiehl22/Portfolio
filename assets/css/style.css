@@ -68,10 +68,10 @@ img {
 
 .square_image {
     width: 240px;
-    height: 280px;
+    height: 300px;
     border-radius: 50%;
     float: left;
-    padding: 15px;
+    padding: 23px;
     shape-outside: circle();
     
 }
@@ -79,6 +79,7 @@ img {
 .paragraph {
     font-size: 1.2em;
     margin-top: 10px;
+    margin-left: 170px;
     line-height: 1.6em;
 }
 
