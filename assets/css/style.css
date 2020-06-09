@@ -10,7 +10,7 @@ html, body {
     /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, black, black);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, rgb(48, 47, 47), rgb(49, 49, 49));
+    background: linear-gradient(to left, rgb(44, 43, 43), rgb(104, 103, 103));
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     height: 100%;
 }
@@ -67,8 +67,8 @@ img {
 }
 
 .square_image {
-    width: 250px;
-    height: 290px;
+    width: 240px;
+    height: 280px;
     border-radius: 50%;
     float: left;
     padding: 15px;
