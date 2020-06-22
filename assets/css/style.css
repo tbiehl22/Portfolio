@@ -99,6 +99,12 @@ img {
     margin-left: 0px;
 }
 
+.portfolioGithub {
+    background-color: rgba(0, 0, 0, 0.281);
+    color: white;
+    
+}
+
 .card-header {
     color: black;
 }
@@ -132,9 +138,9 @@ a {
     margin-right: 2vh;
 }
 
-
 .share > button {
     background-color: black;
+    color:black;
     border-radius: 5px;
     border: 2px solid white;
     padding: 10px;
